@@ -1,5 +1,6 @@
 @import-normalize;
 @import "recipe-list.css";
+@import "recipe-edit.css";
 @import "font.css";
 @import "buttons.css";
 @import "recipe.css";
@@ -9,6 +10,7 @@
 *::before,
 *::after {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
 }
 
 html {
